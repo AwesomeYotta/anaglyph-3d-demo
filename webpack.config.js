@@ -145,8 +145,6 @@ if (isProduction) {
                     changeOrigin: true
                 },
                 '/ossimg': {
-                    // ossUrl: "https://vision-backend.oss-cn-beijing.aliyuncs.com/e6bb08294b0e292ff3fe18fed3a43d0ca68f541bf9eb03ef6bee55642fa44126.png?Expires=1550147055&OSSAccessKeyId=LTAIEw7XM9nhO8PK&Signature=RgEiqi5Dhs4R9ptA1A7uY7r65nc%3D"
-                    // request: /ossimg/e6bb08294b0e292ff3fe18fed3a43d0ca68f541bf9eb03ef6bee55642fa44126.png?Expires=1550147055&OSSAccessKeyId=LTAIEw7XM9nhO8PK&Signature=RgEiqi5Dhs4R9ptA1A7uY7r65nc%3D
                     target: 'https://vision-backend.oss-cn-beijing.aliyuncs.com',
                     pathRewrite: { '^/ossimg': '' },
                     changeOrigin: true
